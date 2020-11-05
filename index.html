@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>IdeaBox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta name="viewport" content="width=device-width;initial-scale=1"/>
+  </head>
+  <body>
+    <main class="content">
+      <aside class="side-bar">
+        <h2 class="title">IdeaBox</h2>
+        <section class="filter-ideas">
+          <h3 class="sub-title">Filter Starred Ideas</h3>
+          <button class="btn-ideas">Show Starred Ideas</button>
+        </section>
+      </aside>
+      <section class="main-container">
+        <section class="idea-container">
+          <form class="idea-form">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title"/>
+            <label for="body">Body</label>
+            <textarea name="body" id="body"></textarea>
+            <button class="btn-save">Save</button>
+            <label class="search">
+               <img class="search-icon"src="./assests/search.svg" alt="search-icon" />
+               <input class="search-txt" type="text" name="search" placeholder="Search ideas" />
+            </label>
+          </form>
+        </section>
+        <section class="saved-ideas">
+          <article class="idea">
+              <header class="header">
+                <img class="star" src="./assests/star-active.svg" alt="star"/>
+                <img class="close" src="./assests/menu-close.svg" alt="close"/>
+              </header>
+                <section class="desc">
+                  <h3 class="idea-title">Idea title</h3>
+                  <p class="idea-desc"> adsfgdsf sdfg dsfg  gfh rsgh adfgdsfgse dsfghrsdf gfdh fdgh dfghdfg hdfgh fgh dfgj </p>
+                </section>
+              <footer class="footer">
+                <div class="comment-content">
+                  <img class="comment" src="./assests/comment.svg" alt="comment" />
+                  <p class="comment-txt">Comment</p>
+                </div>
+              </footer>
+          </article>
+          <article class="idea">
+            <header class="header">
+              <img class="star" src="./assests/star-active.svg" alt="star"/>
+              <img class="close" src="./assests/menu-close.svg" alt="close"/>
+            </header>
+              <section class="desc">
+                <h3 class="idea-title">Idea title</h3>
+                <p class="idea-desc"> adsfgdsf sdfg dsfg  gfh rsgh adfgdsfgse dsfghrsdf gfdh fdgh dfghdfg hdfgh fgh dfgj </p>
+              </section>
+            <footer class="footer">
+              <div class="comment-content">
+                <img class="comment" src="./assests/comment.svg" alt="comment" />
+                <p class="comment-txt">Comment</p>
+              </div>
+            </footer>
+        </article>
+          <article class="idea">
+            <header class="header">
+              <img class="star" src="./assests/star-active.svg" alt="star"/>
+              <img class="close" src="./assests/menu-close.svg" alt="close"/>
+            </header>
+              <section class="desc">
+                <h3 class="idea-title">Idea title</h3>
+                <p class="idea-desc"></p>
+              </section>
+            <footer class="footer">
+              <div class="comment-content">
+                <img class="comment" src="./assests/comment.svg" alt="comment" />
+                <p class="comment-txt">Comment</p>
+              </div>
+            </footer>
+        </article>
+        <article class="idea">
+          <header class="header">
+            <img class="star" src="./assests/star-active.svg" alt="star"/>
+            <img class="close" src="./assests/menu-close.svg" alt="close"/>
+          </header>
+            <section class="desc">
+              <h3 class="idea-title">Idea title</h3>
+              <p class="idea-desc"></p>
+            </section>
+          <footer class="footer">
+            <div class="comment-content">
+              <img class="comment" src="./assests/comment.svg" alt="comment" />
+              <p class="comment-txt">Comment</p>
+            </div>
+          </footer>
+      </article>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="./src/idea.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
