@@ -191,3 +191,7 @@ footer {
 .desc {
     padding: 1em;
 }
+
+.btn-disabled {
+    background-color: #BFBFDD;
+}
